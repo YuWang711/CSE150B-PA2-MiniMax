@@ -24,9 +24,9 @@ class Node:
 # AI agent. To be used do determine a promising next move.
 class AI:
     # Recommended: do not modify this __init__ function
-    def __init__(self, root_state, depth): 
+    def __init__(self, root_state, search_depth=3): 
         self.root = Node(root_state, MAX_PLAYER)
-        self.search_depth = depth
+        self.search_depth = search_depth
         self.simulator = Game(*root_state)
 
     # recursive function to build a game tree

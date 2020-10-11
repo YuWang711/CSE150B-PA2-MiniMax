@@ -88,7 +88,7 @@ class GameRunner:
                         self.grayscale = not self.grayscale
 
             if self.auto and not game_over:
-                ai = AI(self.game.get_state(), 3)
+                ai = AI(self.game.get_state())
                 if not self.ec:
                     direction = ai.compute_decision() 
                 else:
