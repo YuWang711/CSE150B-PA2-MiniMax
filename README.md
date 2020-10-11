@@ -6,7 +6,7 @@ Implement a game AI for the 2048 game based on expectimax search. The base game 
 
 Due date
 -----
-April-26 5pm. (TODO: CHANGE ME)
+Oct-25 11:59pm. 
 
 Task
 -----
