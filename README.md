@@ -32,7 +32,7 @@ To run the program:
     python main.py
 ```
 
-The file 'test\_utils.py' contains code for testing that with the depth-3 tree and the expectimax algorithm, your AI returns the right directions and values on 3 test states. Run the tests using:
+The file 'test.py' contains code for testing that with the depth-3 tree and the expectimax algorithm, your AI returns the right directions and values on 3 test states. Run the tests using:
 ```
     python main.py -t 1
 ```
